@@ -114,7 +114,7 @@ npm install
 npm run dev
 
 Очікуваний результат:
-Copy> client@0.0.0 dev
+> client@0.0.0 dev
 > vite
 
   ➜  Local:   http://localhost:5173/
@@ -138,8 +138,8 @@ Copy> client@0.0.0 dev
 
 
 ## 📋 Приклад конвертації
-```
-bashCopycurl -X POST http://localhost:8000/api/convert \
+```bash
+curl -X POST http://localhost:8000/api/convert \
   -H "Content-Type: application/json" \
   -d '{"from":"USD","to":"UAH","amount":100}'
 ```
@@ -196,7 +196,7 @@ bashCopycurl -X POST http://localhost:8000/api/convert \
 
 Backend виводить детальні логи:
 
-Copyℹ️  [INFO] GET /api/currencies
+ℹ️  [INFO] GET /api/currencies
 
 🌐 Отримуємо свіжі курси з API НБУ
 
