@@ -173,7 +173,7 @@ curl -X POST http://localhost:8000/api/convert \
 **Frontend:**
 - React 19 + TypeScript
 - Vite — збірка та розробка
-- Inline styles — стилізація
+- Звичайний CSS — стилізація
 
 ## 📦 Особливості
 
