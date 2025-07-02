@@ -25,10 +25,13 @@
 - Швидка конвертація через кеш ✅
 
 ## 🏗️ Структура проекту
+
+```
 express-currency-converter/
 ├── client/                 # React фронтенд
 ├── server/                 # Node.js бекенд
 └── README.md              # Документація
+```
 
 ### Backend структура (`server/src/`)
 
@@ -135,15 +138,16 @@ Copy> client@0.0.0 dev
 
 
 ## 📋 Приклад конвертації
-
+```
 bashCopycurl -X POST http://localhost:8000/api/convert \
   -H "Content-Type: application/json" \
   -d '{"from":"USD","to":"UAH","amount":100}'
-
+```
 
 **Відповідь:**
 
-jsonCopy{
+```json
+{
   "success": true,
   "data": {
     "from": "USD",
@@ -155,7 +159,7 @@ jsonCopy{
   },
   "message": "100 USD = 4181.16 UAH"
 }
-
+```
 
 ## 🛠️ Технології
 
