@@ -95,8 +95,9 @@ npm run dev
 
   ➜  Local:   http://localhost:8000/
   ➜  Network: http://192.168.1.4:8000/
+  ```
 
-Frontend запуск
+### Frontend запуск
 
 Другий термінал:
 ```bash
@@ -109,6 +110,7 @@ Copy> client@0.0.0 dev
 > vite
 
   ➜  Local:   http://localhost:5173/
+  ```
 
 ### Доступ до додатку
 
